@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Varela+Round&display=swap');
+
+body
+{
+    margin: 0;
+    font-family: 'Comfortaa', sans-serif;
+    background-color: var(--background-color) !important;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+    color: var(--input-Color);
+}
+
+
+
+/* Color Manager */
+
+:root
+{
+    --background-color: white;
+    --primary-green: #03989e;
+    --secondary-green: #2bc2c8;
+    --header-bg: white;
+    --bg: #eee;
+    --searchBar-border: #eee;
+    --button-Color: white;
+    --input-Color: #11121A;
+    --description:#96939B;
+}
+
+.dark-Mode-Theme
+{
+    --background-color:#11121A;
+    --primary-green: #03989e;
+    --secondary-green: #2bc2c8;
+    --header-bg: #1C1C24;
+    --bg: #1C1C24;
+    --searchBar-border: #222328;
+    --input-Color: white;
+    --description: #96939B;
+}
+
+
+
+/* Header Nav Bar */
+
+header{
+    background-color: var(--header-bg);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.header-container
+{
+    max-width: 1250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.header-container .logo
+{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header-container .logo img
+{
+    height: 100%;
+}
+
+.header-container span
+{
+    color: var(--input-Color);
+}
+
+.header-container i
+{
+    margin-left: 25px;
+    color: var(--input-Color);
+}
+
+
+
+/* Search Bar */
+.search
+{
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.search-container
+{
+    background-color: var(--bg);
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid var(--searchBar-border);
+    display: flex;
+    overflow: hidden;
+}
+
+.input-container
+{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.input-container input
+{
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--input-Color);
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.input-container i
+{
+    font-size: 20px;
+    margin-left: 25px;
+    color: var(--input-Color);
+}
+
+.button-container
+{
+    background: var(--primary-green);
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: var(--button-Color);
+}
+
+.button-container:hover
+{
+    background: var(--secondary-green);
+}
+
+
+
+/* Items List */
+
+.items-list
+{
+    max-width: 1250px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.items-list h1
+{
+    margin-left: 25px;
+    font-size: 20px;
+    color: var(--input-Color);
+}
+
+.items-container
+{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.item-tile
+{
+    background-color: var(--bg);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    transition: transform 0.2s;
+}
+
+.item-tile span i
+{
+    color: var(--input-Color);
+}
+
+.item-tile:hover
+{
+    transform: scale(1.05);
+}
+
+.top
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.itemname
+{
+    margin: 20px 0px;
+}
+
+.itemname span
+{
+    font-size: 22px;
+    color: var(--input-Color);
+}
+
+.description
+{
+    flex-grow: 1;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.description span
+{
+    height: 105px;
+    overflow: hidden;
+    font-size: 12px;
+    color: var(--description);
+    flex-grow: 1;
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: var(--bg);
+    background-color: var(--primary-green);
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (max-width: 930px) {
+
+    .items-container
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .items-container
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .input-container input
+    {
+        width: 30%;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .button-container
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}

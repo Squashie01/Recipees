@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <a href="index.html"><span> Recipees </span></a>
+            <i class="far fa-moon" onclick="DarkModeTheme()"></i>
+        </div>
+    </header>
+
+    <div class="search">
+        <div class="search-container">
+            <div class="input-container">
+                <i class="fas fa-search"></i>
+                <input type="text" id="filter-items" name="filter-items" placeholder="Search items... ">
+            </div>
+            <div class="button-container">
+                <span> Find Food </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="items-list">
+        <h1> Showing items </h1>
+        <div class="items-container">
+            <div class="item-tile">
+                <div class="top">
+                    <img src="https://pbs.twimg.com/profile_images/1871386426/TSIconButtonSM_400x400.png" alt="">
+                    <span class="material-icons more_horiz"> more_horiz </span>
+                </div>
+                <div class="itemname">
+                    <span> Lead Product Design </span>
+                </div>
+                <div class="description">
+                    <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad nulla temporibus consequuntur suscipit eius quaerat fuga eveniet reiciendis cumque, id deleniti amet illum dignissimos inventore quas accusantium recusandae dolorum mollitia!</span>
+                </div>
+                <div class="button">
+                    View Now
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        // Dark Mode Code
+
+        function DarkModeTheme() {
+            document.body.classList.toggle('dark-Mode-Theme');
+        }
+    </script>
+
+</body>
+</html>

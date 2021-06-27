@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "name": "Popcorn latte",
+      "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks11.jpg",
+      "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+      "about": "Popcorn and movies go together like peanut butter and jelly. To take your regular movie nights up a notch, why not try making a popcorn latte? Instead of having popcorn with a soda on the side, this recipe introduces you to a whole new way of enjoying popcorn – with a classic espresso shot. "
+    },
+
+    {
+      "id": 2,
+      "name": "Strawberry latte",
+      "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks15.jpg",
+      "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+      "about": "Koreans use the word latte even for drinks that don’t contain coffee or tea, and fruit lattes are a good example. So don’t order a strawberry latte thinking that it’ll come with a shot of espresso! "
+    },
+
+    {
+        "id": 3,
+        "name": "Dalgona milk tea",
+        "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks6.jpg",
+        "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+        "about": "We know what you’re thinking: ugh, not another over-hyped Dalgona recipe. The recent viral Dalgona coffee trend has definitely taken the internet by storm, but little known to many, dalgona (달고나) actually refers to a caramel-coloured Korean candy made by combining sugar, water, and baking soda. "
+    },
+
+    {
+        "id": 4,
+        "name": "Strawberry matcha latte",
+        "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks2.jpg",
+        "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+        "about": "This drink, reminiscent of the Italian flag, is perfect if you’re craving for something cooling and refreshing, yet full-bodied at the same time. Mix all three layers together and you’ll be sipping on a matcha latte with a sweet note from the strawberry pulp. "
+    },
+
+    {
+        "id": 5,
+        "name": "Blueberry latte",
+        "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks5.jpg",
+        "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+        "about": "Blueberries are packed full of antioxidants and are said to help prevent heart diseases. If you’ve been reaching for a snack one too many times, try going for a healthier option like this blueberry latte instead."
+    },
+
+    {
+        "id": 6,
+        "name": "Jollypong latte",
+        "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks3.jpg",
+        "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+        "about": "A bowl of cereal is the go-to breakfast choice for many as it’s quick and easy to prepare. But instead of having it plain, creative Koreans have come up with a drink called Jollypong latte, which incorporates cereal and milk with a shot of espresso. "
+    },
+
+    {
+        "id": 7,
+        "name": "Jollypong smoothie",
+        "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks16.jpg",
+        "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+        "about": "Jollypong smoothie is a non-caffeinated version of Jollypong latte, and it’s way more sinful with the addition of vanilla ice cream. But now that we’ve got extra time on hand to squeeze in a workout or two to burn off those calories, there’s really no better time for us to indulge in some sweet treats. "
+    },
+
+    {
+        "id": 8,
+        "name": "Matcha einspänner",
+        "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks10.jpg",
+        "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+        "about": "Einspänner is a Viennese coffee usually enjoyed by combining two shots of espresso with a thick layer of whipped cream. Drawing inspiration from this drink, many cafes have replaced the espresso shots with matcha to better cater to those who prefer tea. "
+    },
+
+    {
+        "id": 9,
+        "name": "Banana cafe latte",
+        "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks12.jpg",
+        "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+        "about": "Fans of coffee banoffee pie don’t have to go through all the hassle of baking to satiate their craving because they can have it all in a drink that takes less than 10 minutes to make. "
+    },
+
+    {
+        "id": 10,
+        "name": "Galaxy Lemonade",
+        "img": "https://thesmartlocal.com/korea/wp-content/uploads/2020/05/Koreaan-Home-Cafe-Drinks4.jpg",
+        "article": "https://thesmartlocal.com/korea/korean-home-cafe/",
+        "about": "This galaxy lemonade tastes just as good as it looks. Unlike many colourful drinks that add artificial food colouring, this all-natural recipe uses butterfly pea flowers to achieve a beautiful blue-purple gradient. "
+    },
+
+    {
+        "id": 11,
+        "name": "Candy Cane Cheesecake",
+        "img": "https://cdn.theeverydaymomlife.com//app/uploads/2017/12/IMG_0485-copy-small.jpg",
+        "article": "https://www.theeverydaymomlife.com/recipe/candy-cane-cheesecake/",
+        "about": "When I decided I wanted to make a dessert inspired by the candy cane I passed on cookies, cake and brownies. "
+    },
+
+    {
+        "id": 12,
+        "name": "Perfectly Pink Fudge",
+        "img": "https://cdn.theeverydaymomlife.com//app/uploads/2017/02/IMG_3011-copysm-1024x683-1.jpg",
+        "article": "https://www.theeverydaymomlife.com/recipe/perfectly-pink-party-fudge/",
+        "about": "Happy eating, friends! Make sure to pin these for Valentine’s Day next year or for your child’s next birthday party. It’s perfect for any princesses, mermaids, Trolls or unicorns out there."
+    },
+
+    {
+        "id": 13,
+        "name": "Homemade Granola Bars",
+        "img": "https://cdn.theeverydaymomlife.com//app/uploads/2018/08/IMG_1515-copy-1024x683-2-sm.jpg",
+        "article": "https://www.theeverydaymomlife.com/recipe/serve-up-smiles-at-school-with-lunch-box-notes-goldfish-crackers-granola-bars/",
+        "about": "Note: Before we dive in, you may find a lot of recipes that use brown rice syrup as a sticky ingredient for granola bars."
+    },
+
+    {
+        "id": 14,
+        "name": "Strawberry Shortcake",
+        "img": "https://cdn.theeverydaymomlife.com//app/uploads/2018/05/IMG_9808-copy-small.jpg",
+        "article": "https://www.theeverydaymomlife.com/recipe/the-best-strawberry-shortcake-recipe/",
+        "about": "Nothing says springtime like strawberries and nothing screams springtime and summer dessert more than strawberry shortcake."
+    },
+
+    {
+        "id": 15,
+        "name": "Lemon Blueberry Pie",
+        "img": "https://cdn.theeverydaymomlife.com//app/uploads/2019/04/0Z0A8777-copysm.jpg",
+        "article": "https://www.theeverydaymomlife.com/recipe/lemon-blueberry-pie-recipe/",
+        "about": "There are a few flavors to me that just scream springtime and warmer weather in each and every bite.  Two of those flavors include lemon and blueberry."
+    }
+    
+]
